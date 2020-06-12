@@ -11,7 +11,7 @@ export const ChecklistItem = () => {
     })
 
     useEffect(()=> {
-        axios.get(url+id,
+        axios.get(url,
             {headers: {
                 "Authorization" : localStorage.getItem('token')
             }

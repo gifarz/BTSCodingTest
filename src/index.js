@@ -10,7 +10,8 @@ import { Checklist } from './Checklist/Checklist';
 
 const routing = (
   <Router>
-    <Route path="/" component={Login} />
+    {/* <Route path="/" component={App} /> */}
+    <Route path="/login" component={Login} />
     <Route path="/register" component={Register} />
     <Route path="/checklist" component={Checklist} />
   </Router>
